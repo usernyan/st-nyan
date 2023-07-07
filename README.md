@@ -2,16 +2,16 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
-# Usernyan's Build:
+## usernyan's changes
 + Scrollback with `shift-pageup/down` or `shift-scrollup/down`
 + Does _not_ cut off text on window resize
 
-## Visual stuff:
+### Visual stuff:
 + Use Xresources or pywal for dynamic colors/fonts
 + Transparency/alpha, adjustable from Xresources
 + Default font is "mono"
 
-## Other Patches
+### Other Patches
 + boxdraw
 + font2
 
