@@ -12,6 +12,7 @@ st is a simple terminal emulator for X which sucks less.
 + Default font is "mono"
 
 ### Other Patches
++ desktopentry
 + boxdraw
 + font2
 
