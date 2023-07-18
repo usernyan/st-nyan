@@ -5,16 +5,15 @@ st is a simple terminal emulator for X which sucks less.
 ## usernyan's changes
 + Scrollback with `shift-pageup/down` or `shift-scrollup/down`
 + Does _not_ cut off text on window resize
++ desktopentry patch, ads a desktop entry for st
 
 ### Visual stuff:
 + Use Xresources or pywal for dynamic colors/fonts
 + Transparency/alpha, adjustable from Xresources
 + Default font is "mono"
-
-### Other Patches
-+ desktopentry
-+ boxdraw
-+ font2
++ boxdraw patch, Box-drawing characters are rendered without gaps
++ font2 patch, have fallback fonts in config.h
++ anysize patch, the terminal window can adjust to any size, not just multiples of the char width/height
 
 Requirements
 ------------
